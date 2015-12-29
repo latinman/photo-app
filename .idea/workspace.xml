@@ -26,8 +26,8 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
-              <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+            <state vertical-scroll-proportion="-21.333334" vertical-offset="103" max-vertical-offset="780">
+              <caret line="41" column="94" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -36,8 +36,8 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75150603" vertical-offset="401" max-vertical-offset="1395">
-              <caret line="60" column="111" selection-start-line="60" selection-start-column="111" selection-end-line="60" selection-end-column="111" />
+            <state vertical-scroll-proportion="0.5481928" vertical-offset="731" max-vertical-offset="1395">
+              <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -54,7 +54,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20151229024141_devise_create_users.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
@@ -65,6 +64,8 @@
         <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
@@ -131,6 +132,10 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="welcome">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -167,6 +172,10 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -178,14 +187,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="assets">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="stylesheets">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -347,7 +348,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="SearchEverywhereHistoryKey" value="gem&#9;FILE&#9;file:///Users/erivas78/Documents/projects/photo-app/Gemfile&#10;ge&#9;FILE&#9;file:///Users/erivas78/Documents/projects/photo-app/Gemfile&#10;rout&#9;FILE&#9;file:///Users/erivas78/Documents/projects/photo-app/config/routes.rb&#10;Gem&#9;FILE&#9;file:///Users/erivas78/Documents/projects/photo-app/Gemfile" />
+    <property name="SearchEverywhereHistoryKey" value=" cus&#9;FILE&#9;file:///Users/erivas78/Documents/projects/photo-app/app/assets/stylesheets/custom.css.scss&#10;gem&#9;FILE&#9;file:///Users/erivas78/Documents/projects/photo-app/Gemfile&#10;ge&#9;FILE&#9;file:///Users/erivas78/Documents/projects/photo-app/Gemfile&#10;rout&#9;FILE&#9;file:///Users/erivas78/Documents/projects/photo-app/config/routes.rb&#10;Gem&#9;FILE&#9;file:///Users/erivas78/Documents/projects/photo-app/Gemfile" />
   </component>
   <component name="RunManager" selected="Rails.Development: photo-app">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -714,26 +715,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
-          <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.30523255" vertical-offset="0" max-vertical-offset="4020">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95568687" vertical-offset="178" max-vertical-offset="960">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.95568687" vertical-offset="388" max-vertical-offset="1170">
+          <caret line="69" column="63" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.333334" vertical-offset="103" max-vertical-offset="780">
+          <caret line="41" column="94" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75150603" vertical-offset="401" max-vertical-offset="1395">
-          <caret line="60" column="111" selection-start-line="60" selection-start-column="111" selection-end-line="60" selection-end-column="111" />
+        <state vertical-scroll-proportion="0.5481928" vertical-offset="731" max-vertical-offset="1395">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
           <folding />
         </state>
       </provider>
